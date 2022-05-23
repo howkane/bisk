@@ -1,0 +1,32 @@
+.wall {
+    flex: 0.4;
+    min-width: fit-content; 
+    border-right: 1px solid #000000;
+    overflow-y: scroll;
+}
+
+.wall::-webkit-scrollbar {
+    display: none;
+}
+
+.wall {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.main_wall_header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-right: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    padding: 15px 20px;
+}
+
+.main_wall_header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+

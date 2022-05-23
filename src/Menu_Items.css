@@ -1,0 +1,26 @@
+.menuItems {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuItems:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: #000000;
+    transition: color 100ms ease-out;
+}
+
+.menuItems {
+    padding: 20px;
+}
+
+.menuItems > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menuItems--active {
+    color: #000000;
+}
